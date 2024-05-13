@@ -1,0 +1,51 @@
+body {
+	background: linear-gradient(-45deg, #42b89b , #014c77, rgb(16, 105, 61));
+	background-size: 400% 400%;
+/*	animation: gradient 15s ease infinite; */
+	height: 100vh;
+    margin: auto;
+	
+}
+
+.login_section{
+	margin: auto;
+    max-width: 100%;
+	max-height: 100%;
+	position: absolute;
+	text-align: center;
+    background-color: rgb(37, 37, 56);
+	border-radius: 9px;
+	padding: 2.5%;
+    font-family: 'Courier New', Courier, monospace;
+
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+.main_labels{
+    color: whitesmoke;
+}
+input[type=submit]{
+    background-color: #ffffff;
+    border: none;
+    color: rgb(0, 0, 0);
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+
